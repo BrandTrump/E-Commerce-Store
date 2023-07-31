@@ -2,8 +2,8 @@
 Tutorial by [Code With Antonio](https://www.youtube.com/@codewithantonio) - https://www.youtube.com/watch?v=5miHyP6lExg&list=LL&index=3
 
 ### Created With
-- Next.js 13.4
-- Tailwind CSS
+- Next.js 13
+- Tailwindcss
 - TypeScript
 - Headless UI
 - Zustand
