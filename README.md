@@ -12,5 +12,14 @@ Tutorial by [Code With Antonio](https://www.youtube.com/@codewithantonio) - http
 ### Learnings
 - Headless UI component library.
 - Stripe checkout.
+ ```js
+ const onCheckout = async () => {
+    const response = await axios.post(
+      `${process.env.NEXT_PUBLIC_API_URL}/checkout`,
+      {
+        productIds: items.map((item) => item.id),
+      }
+ );
+  ```
 - Stripe webhooks.
 - How to implement the latest caching techniques in Next.js 13.
